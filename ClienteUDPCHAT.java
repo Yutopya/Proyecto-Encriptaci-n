@@ -28,7 +28,6 @@ public class ClienteUDPCHAT {
         Scanner lector = new Scanner(System.in);
         String mensaje;
         System.out.println("Escribe tu nombre");
-        System.out.println(clavePublica.getFormat());
         nombre = lector.nextLine();
         envioNombre();
         envioClave();
